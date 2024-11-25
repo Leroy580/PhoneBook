@@ -24,6 +24,7 @@ int main() {
     getline(cin, buf);
     string filename = buf + "P";
     string filename2 = buf + "G";
+    Read(person, group, hp, filename.c_str(), filename2.c_str());
 
     do {
         cout << "\n\n/menu\n1. Show full list of persons\n2. Add new person\n3. Groups Manager\n";
